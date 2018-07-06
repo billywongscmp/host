@@ -122,7 +122,7 @@ Table.prototype.filterUpdated = function (e)
 		new_has_industry || old_has_industry
 	)
 	{
-		console.log(old_industry_value, new_industry_value);
+		// console.log(old_industry_value, new_industry_value);
 		
 		if(old_industry_value != new_industry_value)
 		{
@@ -187,7 +187,7 @@ Table.prototype.initGroupCompanies = function ()
 
 	})
 
-	console.log(this.group_companies);
+	// console.log(this.group_companies);
 
 	this.updateTable();
 }
