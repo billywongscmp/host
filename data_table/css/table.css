@@ -1,0 +1,27 @@
+#navbar
+{
+    background-color: #ffffff;
+    margin-top: 40px;
+
+    padding-bottom: 20px;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+#navbar .panel p {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    max-width: 100%;
+}
+
+.content h5 {
+    color: #4c3796;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.company{
+    padding: 5px;
+}

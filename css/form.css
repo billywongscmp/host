@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:300,300i,400,700|Roboto');
+.news-block {
+    width: 50%;
+    margin: 3em auto 0em;
+}
+
+.news-left {
+    float: left;
+    width: 49%;
+    border: 1px solid #ccc;
+    padding: 1em 1.5em;
+    background: #fff;
+}
+
+.reaches {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.news-text1 {
+    float: left;
+    width: 49%;
+}
+
+.news-text2 {
+    float: left;
+    width: 49%;
+}
+
+.new-right {
+    float: right;
+    width: 35%;
+    border: 1px solid #ccc;
+    padding: 1em 1.5em;
+    background: #fff;
+}
+
+.news-1 {
+    /* border-bottom: 1px solid #ccc; */
+    /*margin-bottom: 1em;*/
+    /*
+    padding: 1em 1.5em;
+*/
+}
+
+.news-2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.1em;
+    margin-bottom: 1em;
+}
+
+.news-text1 h2 {
+    font-size: 1.6em;
+    color: #F19E35;
+    font-weight: 600;
+}
+
+.news-btn-1 a {
+    font-size: 1em;
+    color: #fff;
+    background: #00a1f1;
+    padding: 0.5em 1em;
+    display: inline-block;
+    margin-top: 1.4em;
+}
+
+.news-btn-1 a:hover {
+    background: #F19E35;
+}
+
+.news-left h3 {
+    font-size: 1.4em;
+}
+
+.news-left h3 a {
+    color: #000;
+}
+
+.reaches h6 {
+    font-size: 1em;
+    color: #B3812A;
+}
+
+.news-left p {
+    font-size: 0.95em;
+    color: #777;
+    line-height: 1.8em;
+}
+
+.main-text {
+    /*
+	color: #FFFFFF;
+*/
+    color: #ABABAB;
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.email-field {
+        height: 35px;
+    display: block;
+    max-width: 425px;
+    width: 100%;
+}
+
+.email-box-col {
+    width: -webkit-calc(100% - 35px);
+    width: -moz-calc(100% - 35px);
+    width: calc(100% - 35px);
+    height: 35px;
+    display: inline-block;
+    float: left;
+}
+
+.button-col {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    float: left;
+}
+
+.email-box {
+    height: 35px;
+    width: 100%;
+    border: 0.5px solid #F8008E;
+    background-color: #FFFFFF;
+    padding-left: 10px;
+    -webkit-appearance: none;
+    border-radius: 0;
+    float: left;
+    color: #8A0185;
+}
+
+.email-box::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #1C2129;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    opacity: .6;
+}
+
+.privacy-text {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 10px;
+    line-height: 0px;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.buzz-newsh3 {
+    font-size: 1.4em;
+    color: #0A0909;
+}
+
+.buzz-newsh3 p {
+    font-size: 0.95em;
+    color: #777;
+    line-height: 1.8em;
+}
+
+/*--news-right--*/
+
+.news-text2 h4 {
+    font-size: 1.5em;
+    color: #ff0000;
+}
+
+.news-btn-2 a {
+    font-size: 1em;
+    color: #fff;
+    background: #ffbb00;
+    padding: 0.5em 1em;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.news-btn-2 a:hover {
+    background: #F19E35;
+}
+
+.news-btn-3 a {
+    font-size: 1em;
+    color: #fff;
+    background: #7cbb00;
+    padding: 0.5em 1em;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.news-btn-3 a:hover {
+    background: #F19E35;
+}
+
+.news-block-bottom {
+    background-size: cover;
+    overflow: hidden;
+}
+
+.submit_btn {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #05D3AB;
+    padding: 10px 10px 12px 10px;
+    border: 0.5px solid #F8008E;
+    text-decoration: none;
+    height: 35px;
+    margin-left: -5px;
+    cursor: pointer;
+    float: left;
+    padding-top: 4px;
+}
+
+.error-box {
+    background-color: #F8008E;
+    color: #FFFFFF;
+    height: 35px;
+    max-width: 335px;
+    width: 100%;
+
+}
+
+.error-text {
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+.submit_btn:hover {
+    background: #3cb0fd;
+    border: 0.5px solid #3cb0fd;
+
+    text-decoration: none;
+}
+
+.buzz-news {
+    float: left;
+    width: 18%;
+    padding-left: 1.5em;
+}
+
+.buzz-img {
+    width: 100%;
+    max-width: 425px;
+    /* float: left; */
+    margin: 0 auto;
+}
+
+.img-responsive {
+    width: 100%;
+    max-width: 270px;
+    min-width: 70px;
+}
+
+.img-logo {
+
+    height: 22px;
+    width: 113px;
+}
+
+.img-arrow {
+    height: 8.62px;
+    width: 8.62px;
+}
+
+.privacy-href {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.thankyou-text {
+    color: #fff;
+    padding-top: 2px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.visit-text {
+    color: #FFFFFF;
+}
+
+.buzz-news h3 {
+    font-size: 1.4em;
+    margin-bottom: 0.2em;
+}
+
+.buzz-news h3 a {
+    color: #182F50;
+}
+
+.buzz-news p {
+    font-size: 0.9em;
+    color: #777;
+    line-height: 1.8em;
+}
+
+.type-field {
+    height: 35px;
+    display: block;
+}
+
+.type-field p {
+    float: left;
+    width: 100%;
+    padding: 5% 0%;
+    text-align: left;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+}
+
+.type-box-col {
+    float: left;
+    width: 95%;
+    padding: 3% 0%;
+    text-align: left;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff;
+    max-width: 425px;
+}
+
+/*--news-right--*/
+
+.clear {
+    clear: both;
+}
+
+/*--media quries start here--*/
+
+@media only screen and (max-width:1440px) {
+    .news-btn-1 a {
+        font-size: 1em;
+        color: #fff;
+        background: #00a1f1;
+        padding: 0.5em 1em;
+        display: inline-block;
+        margin-top: 0.7em;
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    .news-block {
+        width: 52%;
+        margin: 3em auto 0em;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .news-block {
+        width: 57%;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .news-block {
+        width: 69%;
+    }
+    .news-block-bottom {
+        /*margin-top: 2em;*/
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .news-block {
+        width: 91%;
+    }
+}
+
+@media only screen and (max-width:736px) {
+    .news-left p {
+        font-size: 0.88em;
+    }
+    .news-btn-1 a {
+        font-size: 0.8em;
+    }
+    .news-btn-2 a {
+        font-size: 0.8em;
+    }
+    .buzz-news p {
+        font-size: 0.8em;
+        line-height: 1.6em;
+    }
+    .news-btn-3 a {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width:640px) {}
+
+@media only screen and (max-width:480px) {
+    .expand_toggle_wrapper {
+        padding: 1% 5%;
+    }
+    .type-field p {
+        width: 98%;
+    }
+    .news-block-bottom {
+        max-height: 270px;
+    }
+    .buzz-news {
+        width: 24%;
+    }
+    .buzz-img {
+       width: 100%;
+    padding: 0px 20px;
+    }
+    .email-box-col,
+    .email-box {
+        /*max-width: 165px;*/
+    }
+    .email-box::placeholder {
+
+        font-size: 14px;
+
+    }
+    .main-text {
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+    .error-text {
+        padding-top: 0.5rem;
+        padding-left: 0.5rem;
+        font-size: 14px;
+    }
+    @media only screen and (max-width:331px) {
+        .email-box-col,
+        .email-box {
+            /*max-width: 140px;*/
+        }
+    }
+    @media only screen and (max-width:320px) {
+        .email-box-col,
+        .email-box {
+            /*max-width: 130px;*/
+        }
+        h1 {
+            font-size: 1.5em;
+        }
+        .news-left {
+            padding: 1em;
+        }
+        .news-block {
+            width: 95%;
+            margin: 1em auto 0em;
+        }
+        .new-right {
+            float: none;
+            width: 88%;
+            border: 1px solid #ccc;
+            padding: 1em;
+        }
+        .news-left h3 {
+            font-size: 1em;
+        }
+        .news-left p {
+            font-size: 0.8em;
+            line-height: 1.6em;
+        }
+        .news-block-bottom {
+            /*padding: 1em;*/
+        }
+        .buzz-news h3 {
+            font-size: 1em;
+        }
+        .buzz-news p {
+            font-size: 0.8em;
+            line-height: 1.6em;
+        }
+
+    }

@@ -1,0 +1,51 @@
+.data_table {
+  /*// Small devices (landscape phones, 576px and up)*/
+  /*// Medium devices (tablets, 768px and up)*/
+  /*// Large devices (desktops, 992px and up)*/
+  /*// Extra large devices (large desktops, 1200px and up)*/
+}
+.data_table #navbar {
+  background-color: #ffffff;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+.data_table .content {
+  margin-top: 30px;
+}
+.data_table .four {
+  width: 25%;
+  float: left;
+  display: inline-block;
+}
+.data_table .three {
+  width: 33.33%;
+  float: left;
+}
+.data_table #navbar .panel p {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  max-width: 100%;
+}
+.data_table .content h5 {
+  color: #4c3796;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.data_table .company {
+  padding: 5px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #777;
+}
+@media (min-width: 768px) {
+  .data_table select {
+    padding: 10px 30px 10px 10px;
+    width: 80%;
+  }
+  .data_table .content h5 {
+    position: sticky;
+    top: 98px;
+    padding-bottom: 5px;
+    background-color: #ffffff;
+  }
+}
